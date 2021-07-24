@@ -8,11 +8,6 @@ import initialContacts from '../ContactsList/initialContacts.json';
 import s from './App.module.css';
 
 export default class App extends Component {
-  state = {
-    contacts: initialContacts,
-    filter: '',
-  };
-
   static props = {
     contacts: PropTypes.shape({
       id: PropTypes.string.isRequired,
@@ -21,16 +16,23 @@ export default class App extends Component {
     }).isRequired,
   };
 
+  state = {
+    contacts: initialContacts,
+    filter: '',
+  };
+
   componentDidMount() {
     const contactsParse = JSON.parse(localStorage.getItem('contacts'));
     if (contactsParse) {
       this.setState({ contacts: contactsParse });
-    }
-  }
+     };
+  };
 
   componentDidUpdate(prevProps, prevState) {
-    if(this.state.contacts!==prevState.contacts){
-      localStorage.setItem('contacts', JSON.stringify(this.state.contacts));
+    const { contacts } = this.state;
+
+    if (contacts !== prevState.contacts) {
+      localStorage.setItem('contacts', JSON.stringify(contacts));
     };
   };
 
