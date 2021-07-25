@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-03-phonebook/static/css/main.e6f9c100.chunk.css",
+    "main.js": "/goit-react-hw-03-phonebook/static/js/main.cf42d105.chunk.js",
+    "main.js.map": "/goit-react-hw-03-phonebook/static/js/main.cf42d105.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-03-phonebook/static/js/runtime-main.2dc72b0a.js",
+    "runtime-main.js.map": "/goit-react-hw-03-phonebook/static/js/runtime-main.2dc72b0a.js.map",
+    "static/js/2.a2d9ab1f.chunk.js": "/goit-react-hw-03-phonebook/static/js/2.a2d9ab1f.chunk.js",
+    "static/js/2.a2d9ab1f.chunk.js.map": "/goit-react-hw-03-phonebook/static/js/2.a2d9ab1f.chunk.js.map",
+    "index.html": "/goit-react-hw-03-phonebook/index.html",
+    "static/css/main.e6f9c100.chunk.css.map": "/goit-react-hw-03-phonebook/static/css/main.e6f9c100.chunk.css.map",
+    "static/js/2.a2d9ab1f.chunk.js.LICENSE.txt": "/goit-react-hw-03-phonebook/static/js/2.a2d9ab1f.chunk.js.LICENSE.txt",
+    "static/media/Form.module.css": "/goit-react-hw-03-phonebook/static/media/accept.3415213a.svg",
+    "static/media/ContactListItem.module.css": "/goit-react-hw-03-phonebook/static/media/cancel.955d6f70.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2dc72b0a.js",
+    "static/js/2.a2d9ab1f.chunk.js",
+    "static/css/main.e6f9c100.chunk.css",
+    "static/js/main.cf42d105.chunk.js"
+  ]
+}
